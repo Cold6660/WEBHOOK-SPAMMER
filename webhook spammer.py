@@ -45,6 +45,6 @@ webhook_embed = {
 }
 try:
     time.sleep(0.1)
-    r = requests.pot(webhoo, json=webhook_embed)
+    r = requests.post(webhoo, json=webhook_embed)
 except:
      pass
